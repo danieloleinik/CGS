@@ -10,7 +10,7 @@ public class Main {
 
             System.out.println("**** MENU ****");
             System.out.println("(1) Cadastrar Usuário");
-            System.out.println("(2) Listar Usuario");
+            System.out.println("(2) Listar Usuario"); //teste do Daniel na branch listar_usuario_novo
             System.out.println("(3) Deletar Usuário");
             System.out.println("(4) Atualizar Usuário\n");
             System.out.println("(9) Sair\n");
@@ -21,7 +21,8 @@ public class Main {
                 SingletonBD.adicionarUsuario();
             }
             else if(opcao == 2) {
-                SingletonBD.deletarUsuario();
+                SingletonBD.listarUsuarios();
+                System.out.println("Voce acabou de listar os usuarios");
             }
             else if(opcao == 3) {
                 SingletonBD.listarUsuarios();
