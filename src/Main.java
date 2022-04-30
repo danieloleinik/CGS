@@ -12,7 +12,7 @@ public class Main {
             System.out.println("(1) Cadastrar Usuário");
             System.out.println("(2) Listar Usuario");
             System.out.println("(3) Deletar Usuário");
-            System.out.println("(4) Atualizar Usuário\n");
+            System.out.println("(4) Atualizar Usuário\n"); //corrigido Nicolas
             System.out.println("(9) Sair\n");
             System.out.print("Opção: ");
             opcao = sc.nextInt();

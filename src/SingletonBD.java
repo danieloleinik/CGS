@@ -1,6 +1,6 @@
 
 import java.util.ArrayList;
-
+import java.util.Scanner;
 public class SingletonBD {
 
     private static ArrayList<Usuario> listaUsuario = new ArrayList<Usuario>();
@@ -12,7 +12,7 @@ public class SingletonBD {
     public static void deletarUsuario(){ }
 
     public static void atualizarUsuario(){ }
-
+//supostamente ia adicionar os atualizar os users;
     public static void listarUsuarios(){ }
 
 }
