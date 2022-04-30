@@ -24,7 +24,7 @@ public class Main {
                 SingletonBD.deletarUsuario();
             }
             else if(opcao == 3) {
-                SingletonBD.listarUsuarios();
+                SingletonBD.deletarUsuario(); //chama deletar usuario apos selecao 3
             }
             else if(opcao == 4) {
                 SingletonBD.atualizarUsuario();
