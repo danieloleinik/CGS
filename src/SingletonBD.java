@@ -7,7 +7,7 @@ public class SingletonBD {
 
     private SingletonBD() { }
 
-    public static void adicionarUsuario(){ }
+    public static void CadastrarUsuario(){ }
 
     public static void deletarUsuario(){ }
 

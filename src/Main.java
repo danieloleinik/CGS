@@ -18,7 +18,7 @@ public class Main {
             opcao = sc.nextInt();
 
             if(opcao == 1) {
-                SingletonBD.adicionarUsuario();
+                SingletonBD.CadastrarUsuario();
             }
             else if(opcao == 2) {
                 SingletonBD.deletarUsuario();
