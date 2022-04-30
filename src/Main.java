@@ -21,7 +21,8 @@ public class Main {
                 SingletonBD.adicionarUsuario();
             }
             else if(opcao == 2) {
-                SingletonBD.deletarUsuario();
+                SingletonBD.listarUsuarios();
+                System.out.println("Voce acabou de listar os usuarios");
             }
             else if(opcao == 3) {
                 SingletonBD.listarUsuarios();
