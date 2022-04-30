@@ -10,7 +10,7 @@ public class SingletonBD {
     public static void CadastrarUsuario(){ }
 
     public static void deletarUsuario(){
-        //Este metodo irá deletar usuario cadastrado
+        //Este metodo irá deletar usuario cadastrado - thiago
     }
 
     public static void atualizarUsuario(){ }

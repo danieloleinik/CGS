@@ -25,7 +25,7 @@ public class Main {
                 System.out.println("Voce acabou de listar os usuarios");
             }
             else if(opcao == 3) {
-                SingletonBD.deletarUsuario(); //chama deletar usuario apos selecao 3
+                SingletonBD.deletarUsuario(); //chama deletar usuario apos selecao - thiago
             }
             else if(opcao == 4) {
                 SingletonBD.atualizarUsuario();
