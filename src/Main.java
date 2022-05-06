@@ -16,7 +16,7 @@ public class Main {
             System.out.println("(9) Sair\n");
             System.out.print("Opção: ");
             opcao = sc.nextInt();
-//bug feito pelo Daniel
+//correcao do bug
             if(opcao == 1) {
                 SingletonBD.CadastrarUsuario();
             }
